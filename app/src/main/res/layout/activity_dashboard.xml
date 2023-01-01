@@ -312,7 +312,10 @@
             app:iconTintActive="?attr/colorPrimary"
             app:textColor="?attr/colorPrimary"
             android:elevation="8dp"
+            app:textSize="12sp"
             app:sideMargins="15dp"
+
+
             app:menu="@menu/menu_bottomnav"/>
 
     </androidx.cardview.widget.CardView>
