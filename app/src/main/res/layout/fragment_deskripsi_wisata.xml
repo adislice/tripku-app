@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.DeskripsiWisata">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:textSize="18dp"
+                android:text="Paket wisata mengelilingi jogja dengan tema adventure. Terdapat berbagai wisata menarik yang akan dikunjungi. Kamu akan mendapatkan pengalaman tak terlupakan pada berbagai objek wisata yang seru dan menantang. \nPaket wisata mengelilingi jogja dengan tema adventure. Terdapat berbagai wisata menarik yang akan dikunjungi. Kamu akan mendapatkan pengalaman tak terlupakan pada berbagai objek wisata yang seru dan menantang."
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="20dp"
+                android:textSize="18dp"
+                android:text="Disediakan oleh:"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="20dp"
+                android:textSize="18dp"
+                android:text="Naditra Tour &amp; Travel"/>
+        </LinearLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.core.widget.NestedScrollView>
